@@ -60,6 +60,17 @@
   left: 0px;
   bottom: 0px;
   z-index: -1;
+  pointer-events: none;
+}
+#extensionContent {
+  background-image: url(extensionsVisual.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+#botContent {
+  /* background-image: url(botFace.svg); */
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 body {
   font-family: "Hammersmith One", sans-serif;
