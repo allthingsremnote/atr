@@ -24,6 +24,7 @@
   pointer-events: auto;
   line-height: 30px;
   background: white;
+  padding-top: 5px;
 }
 #content:hover > * {
   opacity: 0.3;
@@ -33,10 +34,11 @@
   box-shadow: 0px 0px 3px lightgray;
 }
 .contentTitle {
-  font-size: 2vw;
+  font-size: 3vw;
   color: #1b1e23;
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .contentLink {
   color: darkslategrey;
@@ -44,6 +46,7 @@
   border-bottom: none;
   transition: border 0.1s;
   padding-bottom: 0px;
+  font-size: 1.5vw;
 }
 .contentLink:hover {
   border-bottom: #40a4f4 solid 2px;
@@ -63,7 +66,7 @@
   pointer-events: none;
 }
 #extensionContent {
-  background-image: url(extensionsVisual.svg);
+  /* background-image: url(extensionsVisual.svg); */
   background-repeat: no-repeat;
   background-position: bottom right;
 }
